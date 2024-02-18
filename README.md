@@ -21,12 +21,9 @@ The following equations are central to the model's calculations, defining the re
 - Stress Calculations:
   - Cauchy Stress Calculation and Invariance Calculations are detailed within the repository, focusing on the derivation and computational implementation of these critical measures.
   $$\begin{aligned}\tilde{\sigma}=\frac{2}{J}\left(\frac{\partial\Psi}{\partial\bar{I}_1}+\bar{I}_1\frac{\partial\Psi}{\partial\bar{I}_2}\right)\text{DEV}(\bar{\mathbf{b})}\\-\frac{2}{J}\frac{\partial\Psi}{\partial\bar{I}_2}\text{DEV}(\bar{\mathbf{b}}\cdot\bar{\mathbf{b}})\\+\sum_{\alpha=1}^{N}\sum_{\beta=1}^{N}\frac{\partial\Psi}{\partial\bar{I}_{4_{\alpha\beta}}}\text{DEV}(\bar{\mathbf{a}}_{\alpha}\otimes\bar{\mathbf{a}}_{\beta}+\bar{\mathbf{a}}_{\beta}\otimes\bar{\mathbf{a}}_{\alpha})\\+\sum_{\alpha=1}^{N}\sum_{\beta=1}^{N}\frac{\partial\Psi}{\partial\bar{I}_{5_{\alpha\beta}}}\text{DEV}(\bar{\mathbf{a}_{\alpha}}\otimes\bar{\mathbf{a}}_{\beta}'+\bar{\mathbf{a}}_{\alpha}'\otimes\bar{\mathbf{a}}_{\beta}+\bar{\mathbf{a}}_{\beta}\otimes\bar{\mathbf{a}}_{\alpha}'+\bar{\mathbf{a}}_{\beta}'\otimes\bar{\mathbf{a}}_{\alpha})\end{aligned}$$
-
-$$\text{where}\bar{\mathbf{a}}_{\alpha}=\mathbf{\bar{F}}\cdot\mathbf{A}_{\alpha},\quad\bar{\mathbf{a}}_{\beta}'=\bar{\mathbf{a}}_{\beta}\cdot\mathbf{\bar{b}},\quad\text{and}\quad\bar{\mathbf{a}}_{\alpha}'=\mathbf{\bar{b}}\cdot\bar{\mathbf{a}}_{\alpha},$$
-
-$$\text{where}\bar{\mathbf{a}}_{\alpha}=\bar{\mathbf{a}}_{\beta}$$
-
-$$\text{where}\mathbf{\sigma}=\tilde{\mathbf{\sigma}}-p\mathbf{I}$$
+ - $$\text{where}\bar{\mathbf{a}}_{\alpha}=\mathbf{\bar{F}}\cdot\mathbf{A}_{\alpha},\quad\bar{\mathbf{a}}_{\beta}'=\bar{\mathbf{a}}_{\beta}\cdot\mathbf{\bar{b}},\quad\text{and}\quad\bar{\mathbf{a}}_{\alpha}'=\mathbf{\bar{b}}\cdot\bar{\mathbf{a}}_{\alpha},$$
+ - $$\text{where}\bar{\mathbf{a}}_{\alpha}=\bar{\mathbf{a}}_{\beta}$$
+ - $$\text{where}\mathbf{\sigma}=\tilde{\mathbf{\sigma}}-p\mathbf{I}$$
 
 ### Non-Distortional Parts and Invariance Calculations
 - The repository further explores the non-distortional components of deformation and their influence on material behavior, alongside comprehensive invariance calculations to support model accuracy.
