@@ -1,4 +1,3 @@
-```markdown
 # Hyperelastic Anisotropic Material Neural Network Model
 
 ## Introduction
