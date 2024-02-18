@@ -28,10 +28,18 @@ The following equations are central to the model's calculations, defining the re
 ### Non-Distortional Parts and Invariance Calculations
 - The repository further explores the non-distortional components of deformation and their influence on material behavior, alongside comprehensive invariance calculations to support model accuracy.
 
+### ICNN
+![ICNN](![alt text](ppt/imgs/ICNN.png))
+
+### Convexity
+![Convex function animation](ppt/imgs/convex_function_animation.gif)
+![Non-convex function animation](ppt/imgs/sine_function_animation.gif)
+
 ## Results
 The implementation yields detailed stress analyses for various conditions, illustrated through stress diagrams:
 
-![Stress Diagrams](ppt/model1_stresses.png)
+![Stress Diagrams](ppt/imgs/model1_stresses.png)
+
 
 ## Project Details
 Further insights into the project, including methodology, data analysis, and findings, are available in the accompanying PowerPoint presentation:
