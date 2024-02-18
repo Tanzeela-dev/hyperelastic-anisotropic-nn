@@ -21,9 +21,9 @@ The following equations are central to the model's calculations, defining the re
 - Stress Calculations:
   - Cauchy Stress Calculation and Invariance Calculations are detailed within the repository, focusing on the derivation and computational implementation of these critical measures.
   - ![stress equation](https://github.com/Tanzeela-dev/hyperelastic-anisotropic-nn/blob/main/ppt/eqs/stress_equation.svg)
-  - where ![term 1](<img src="https://latex.codecogs.com/svg.latex?\Large&space;\bar{\mathbf{a}}_{\alpha}=\mathbf{\bar{F}}\cdot\mathbf{A}_{\alpha}" alt="equation description" />), <img src="https://latex.codecogs.com/svg.latex?\Large&space;\bar{\mathbf{a}}_{\beta}'=\bar{\mathbf{a}}_{\beta}\cdot\mathbf{\bar{b}}" alt="equation description2" />, and <img src="https://latex.codecogs.com/svg.latex?\Large&space;\bar{\mathbf{a}}_{\alpha}'=\mathbf{\bar{b}}\cdot\bar{\mathbf{a}}_{\alpha}" alt="equation description3" />
-  - where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbf{\bar{a}}_{\alpha}=\mathbf{\bar{a}}_{\beta}" alt="equation description4" />
-  - where <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathbf{\sigma}=\tilde{\mathbf{\sigma}}-p\mathbf{I}" alt="equation description5" />
+  - where ![term 1](https://github.com/Tanzeela-dev/hyperelastic-anisotropic-nn/blob/main/ppt/eqs/eq1.svg), ![term 2](https://github.com/Tanzeela-dev/hyperelastic-anisotropic-nn/blob/main/ppt/eqs/eq2.svg), and ![term 3](https://github.com/Tanzeela-dev/hyperelastic-anisotropic-nn/blob/main/ppt/eqs/eq3.svg)
+  - where ![term 4](https://github.com/Tanzeela-dev/hyperelastic-anisotropic-nn/blob/main/ppt/eqs/eq4.svg)
+  - where ![term 5](https://github.com/Tanzeela-dev/hyperelastic-anisotropic-nn/blob/main/ppt/eqs/eq5.svg)
 
 ### Non-Distortional Parts and Invariance Calculations
 - The repository further explores the non-distortional components of deformation and their influence on material behavior, alongside comprehensive invariance calculations to support model accuracy.
