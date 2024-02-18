@@ -29,7 +29,7 @@ The following equations are central to the model's calculations, defining the re
 - The repository further explores the non-distortional components of deformation and their influence on material behavior, alongside comprehensive invariance calculations to support model accuracy.
 
 ### ICNN
-![ICNN](![alt text](ppt/imgs/ICNN.png))
+![ICNN](ppt/imgs/ICNN.png))
 
 ### Convexity
 ![Convex function animation](ppt/imgs/convex_function_animation.gif)
@@ -37,7 +37,6 @@ The following equations are central to the model's calculations, defining the re
 
 ## Results
 The implementation yields detailed stress analyses for various conditions, illustrated through stress diagrams:
-
 ![Stress Diagrams](ppt/imgs/model1_stresses.png)
 
 
